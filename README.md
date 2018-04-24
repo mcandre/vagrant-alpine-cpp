@@ -7,7 +7,7 @@ https://app.vagrantup.com/mcandre/boxes/vagrant-alpine-cpp
 # EXAMPLE
 
 ```console
-$ cd test
+$ cd amd64/test
 $ vagrant up
 $ vagrant ssh -c "cd /vagrant && g++ -o hello hello.cpp && ./hello"
 Hello World!
@@ -31,5 +31,6 @@ Hello World!
 # EXPORT
 
 ```console
-$ make vagrant-alpine-cpp.box
+$ sh -c "cd amd64 && make vagrant-alpine-cpp-amd64.box"
+$ sh -c "cd i386 && make vagrant-alpine-cpp-i386.box"
 ```
