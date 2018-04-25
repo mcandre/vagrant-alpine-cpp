@@ -2,7 +2,8 @@
 
 # VAGRANT CLOUD
 
-https://app.vagrantup.com/mcandre/boxes/vagrant-alpine-cpp
+* https://app.vagrantup.com/mcandre/boxes/vagrant-alpine-cpp-amd64
+* https://app.vagrantup.com/mcandre/boxes/vagrant-alpine-cpp-i386
 
 # EXAMPLE
 
